@@ -1,0 +1,58 @@
+html {
+  margin: 15px;
+}
+#title {
+  color: #d5d5d5;
+  text-align: center;
+  font-size: 3em;
+  font-family: piazzolla;
+}
+
+#nav {
+  text-align: center;
+}
+
+#nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #8e8e8e;
+  padding: 10px 12px;
+}
+
+#nav a:hover {
+  background-color: #f6f6f6;
+}
+
+#active {
+  background-color: #f6f6f6;
+}
+
+/* Video Game Section */
+#gameContainer {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  height: 300px;
+}
+
+.gameDisplay {
+  display: grid;
+  margin: 1vh 1vw;
+  font-weight: bold;
+  color: purple;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.gameDisplay:hover {
+  opacity: 0.5;
+}
